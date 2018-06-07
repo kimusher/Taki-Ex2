@@ -53,7 +53,7 @@ export default class PopUpScore extends React.Component {
                             <div id="winning-popup-img">
                                 <img src={imgUrl} alt="winning-img" id="scorePopupImg"></img>
                             </div>
-                            <div> 
+                            <div id="scoreBoard-buttons"> 
                                 <button className="button-NewGame" id="newGameButton" onClick={this.props.resetGame}>New Game</button>
                                 <button className="button-NewGame" id="replayButton" onClick={this.props.showReplay}>Replay</button>
                              </div>

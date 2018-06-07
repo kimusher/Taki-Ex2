@@ -482,3 +482,7 @@ font-size: 100%;
     background: -moz-linear-gradient(top, #2c4b99, #2d44b5);
     background: linear-gradient(to bottom, #2c4b99, #2d44b5);
 }
+#scoreBoard-buttons{
+      bottom: 10%;
+    position: relative;
+}
